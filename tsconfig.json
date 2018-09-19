@@ -8,7 +8,7 @@
     "jsx": "react",
     "reactNamespace": "RX",
     "module": "commonjs",
-    "target": "es6",
+    "target": "es5",
     "experimentalDecorators": true,
     "sourceMap": true,
     "noImplicitAny": true,
@@ -16,7 +16,7 @@
     "outDir": "./dist/",
     "lib": ["es2015", "dom"],
     "types": [
-      "node"
+      "node", "react", "react-dom"
     ]
   },
   "include": [
